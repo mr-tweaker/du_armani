@@ -15,18 +15,18 @@
 #
 
 # Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/xiaomi/armani/device.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/armani/armani-vendor.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common DU stuff
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := armani
-PRODUCT_NAME := lineage_armani
+PRODUCT_NAME := du_armani
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := HM 1S
 PRODUCT_MANUFACTURER := Xiaomi

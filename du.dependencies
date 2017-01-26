@@ -1,0 +1,44 @@
+[ 
+  {
+    "remote":       "cm",
+    "repository":   "android_kernel_xiaomi_armani",
+    "target_path":  "kernel/xiaomi/armani",
+    "branch":       "cm-14.1"
+  },
+  {
+    "remote":       "tm",
+    "repository":   "proprietary_vendor_xiaomi",
+    "target_path":  "vendor/xiaomi",
+    "branch":       "cm-14.1"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_system_qcom",
+    "target_path": "system/qcom",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_external_ant-wireless_ant_service",
+    "target_path": "external/ant-wireless/ant_service",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_external_ant-wireless_ant_native",
+    "target_path": "external/ant-wireless/ant_native",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_external_ant-wireless_antradio-library",
+    "target_path": "external/ant-wireless/antradio-library",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries",
+    "branch"     : "n7x-caf"
+  },
+  {
+    "repository" : "DirtyUnicorns/android_external_connectivity",
+    "target_path": "external/connectivity",
+    "branch"     : "n7x-caf"
+  }
+]
