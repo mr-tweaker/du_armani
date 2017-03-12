@@ -32,11 +32,6 @@
     "branch"     : "n7x-caf"
   },
   {
-    "repository" : "DirtyUnicorns/android_vendor_qcom_binaries",
-    "target_path": "vendor/qcom/binaries",
-    "branch"     : "n7x-caf"
-  },
-  {
     "repository" : "DirtyUnicorns/android_external_connectivity",
     "target_path": "external/connectivity",
     "branch"     : "n7x-caf"
